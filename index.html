@@ -9,28 +9,24 @@
   <body>
     <!-- Header content -->
     <header class="header">
-      <nav class="nav">
-        <a class="nav__link" href="#"> WebStudio </a>
-        <ul class="nav__links-list">
-          <li class="nav__item"><a class="nav__item-link" href="#">Студия</a></li>
-          <li class="nav__item"><a class="nav__item-link" href="#">Портфолио</a></li>
-          <li class="nav__item"><a class="nav__item-link" href="#">Контакты</a></li>
-        </ul>
-        <ul class="nav__contacts-list">
-          <li class="nav__item">
-            <a class="nav__contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
+      <nav class="header-nav">
+        <a class="header-nav__link" href="#"> WebStudio </a>
+        <ul class="header-nav__links-list">
+          <li class="header-nav__item"><a class="header-nav__item-link" href="#">Студия</a></li>
+          <li class="header-nav__item"><a class="header-nav__item-link" href="#">Портфолио</a></li>
+          <li class="header-nav__item"><a class="header-nav__item-link" href="#">Контакты</a></li>
         </ul>
       </nav>
+      <div class="header__contacts-list">
+        <a class="header__contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="header__contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
+      </div>
     </header>
     <!-- Main content -->
     <main class="main">
       <div class="main__top">
         <h1 class="main__title">Эффективные решения для вашего бизнеса</h1>
-        <a class="main__link" href="#">Заказать услугу</a>
+        <button class="main__link" type="button">Заказать услугу</button>
       </div>
       <!-- Features section -->
       <section class="features">
@@ -120,8 +116,12 @@
       <address class="footer__address">
         г. Киев, пр-т Леси Украинки, 26
         <ul class="footer__list-address">
-          <li class="footer__item-address"><a class="footer__email-address" href="mailto:info@example.com">info@example.com</a></li>
-          <li class="footer__item-address"><a class="footer__tel-address" href="tel:+380991111111">+38 099 111 11 11</a></li>
+          <li class="footer__item-address">
+            <a class="footer__email-address" href="mailto:info@example.com">info@example.com</a>
+          </li>
+          <li class="footer__item-address">
+            <a class="footer__tel-address" href="tel:+380991111111">+38 099 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>
